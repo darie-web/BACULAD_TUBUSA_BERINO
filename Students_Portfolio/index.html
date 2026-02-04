@@ -24,8 +24,12 @@
     <!-- HERO SECTION -->
     <section class="hero" id="home">
         <div class="container hero-content">
-            <h2>BSCS 3A Portfolio Directory</h2>
+            <h2>BSCS 3A Portfolio</h2>
             <p>A centralized hub for student developer portfolios</p>
+
+            <p><strong>Course:</strong> BSCS • 3rd Year • Section A</p>
+            <p><strong>Academic Year:</strong> 2025–2026</p>
+
             <a href="#portfolios" class="btn-primary">View Portfolios</a>
         </div>
     </section>
@@ -35,77 +39,162 @@
         <div class="container">
             <h3 class="section-title">Student Portfolios</h3>
 
+            <!-- SEARCH & FILTER (HTML only) -->
+            <div class="portfolio-tools">
+                <input
+                    type="text"
+                    placeholder="Search student, role, or skill…"
+                    aria-label="Search portfolios"
+                >
+
+                <select aria-label="Filter by role">
+                    <option value="">All Roles</option>
+                    <option>Frontend</option>
+                    <option>Backend</option>
+                    <option>Full Stack</option>
+                    <option>UI/UX</option>
+                    <option>Mobile</option>
+                    <option>Data</option>
+                </select>
+            </div>
+
             <div class="portfolio-grid">
 
+                <!-- CARD 1 -->
                 <div class="portfolio-card">
                     <div class="card-header">
                         <h4>Juan Dela Cruz</h4>
                         <span class="badge">Frontend</span>
                     </div>
+
+                    <small class="status available">Available for Projects</small>
+
                     <p>Focused on responsive and accessible interfaces.</p>
+
                     <div class="tags">
                         <span>HTML</span><span>CSS</span><span>JavaScript</span>
                     </div>
+
+                    <div class="profile-links">
+                        <a href="#" target="_blank">GitHub</a>
+                        <a href="#" target="_blank">LinkedIn</a>
+                    </div>
+
                     <a href="#" class="btn-link" target="_blank">View Portfolio</a>
                 </div>
 
+                <!-- CARD 2 -->
                 <div class="portfolio-card">
                     <div class="card-header">
                         <h4>Maria Santos</h4>
                         <span class="badge">Backend</span>
                     </div>
+
+                    <small class="status available">Available for Projects</small>
+
                     <p>Experienced in APIs and database systems.</p>
+
                     <div class="tags">
                         <span>PHP</span><span>MySQL</span><span>Node.js</span>
                     </div>
+
+                    <div class="profile-links">
+                        <a href="#" target="_blank">GitHub</a>
+                        <a href="#" target="_blank">LinkedIn</a>
+                    </div>
+
                     <a href="#" class="btn-link" target="_blank">View Portfolio</a>
                 </div>
 
+                <!-- CARD 3 -->
                 <div class="portfolio-card">
                     <div class="card-header">
                         <h4>Alex Reyes</h4>
                         <span class="badge">Full Stack</span>
                     </div>
+
+                    <small class="status available">Available for Projects</small>
+
                     <p>Builds end-to-end web applications.</p>
+
                     <div class="tags">
                         <span>React</span><span>Node</span><span>MongoDB</span>
                     </div>
+
+                    <div class="profile-links">
+                        <a href="#" target="_blank">GitHub</a>
+                        <a href="#" target="_blank">LinkedIn</a>
+                    </div>
+
                     <a href="#" class="btn-link" target="_blank">View Portfolio</a>
                 </div>
 
+                <!-- CARD 4 -->
                 <div class="portfolio-card">
                     <div class="card-header">
                         <h4>Kim Navarro</h4>
                         <span class="badge">UI/UX</span>
                     </div>
+
+                    <small class="status available">Available for Projects</small>
+
                     <p>Design-focused developer with UX principles.</p>
+
                     <div class="tags">
                         <span>Figma</span><span>CSS</span><span>Accessibility</span>
                     </div>
+
+                    <div class="profile-links">
+                        <a href="#" target="_blank">GitHub</a>
+                        <a href="#" target="_blank">LinkedIn</a>
+                    </div>
+
                     <a href="#" class="btn-link" target="_blank">View Portfolio</a>
                 </div>
 
+                <!-- CARD 5 -->
                 <div class="portfolio-card">
                     <div class="card-header">
                         <h4>Ryan Lim</h4>
                         <span class="badge">Mobile</span>
                     </div>
+
+                    <small class="status available">Available for Projects</small>
+
                     <p>Creates cross-platform mobile applications.</p>
+
                     <div class="tags">
                         <span>Flutter</span><span>Dart</span><span>Firebase</span>
                     </div>
+
+                    <div class="profile-links">
+                        <a href="#" target="_blank">GitHub</a>
+                        <a href="#" target="_blank">LinkedIn</a>
+                    </div>
+
                     <a href="#" class="btn-link" target="_blank">View Portfolio</a>
                 </div>
 
+                <!-- CARD 6 -->
                 <div class="portfolio-card">
                     <div class="card-header">
                         <h4>Sophia Cruz</h4>
                         <span class="badge">Data</span>
                     </div>
+
+                    <small class="status available">Available for Projects</small>
+
                     <p>Data analysis and visualization specialist.</p>
+
                     <div class="tags">
                         <span>Python</span><span>Pandas</span><span>SQL</span>
                     </div>
+
+                    <div class="profile-links">
+                        <a href="#" target="_blank">GitHub</a>
+                        <a href="#" target="_blank">LinkedIn</a>
+                    </div>
+
                     <a href="#" class="btn-link" target="_blank">View Portfolio</a>
                 </div>
 
@@ -113,7 +202,16 @@
         </div>
     </section>
 
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 BSCS 3A • Portfolio Directory</p>
+            <p>Department of Computer Science</p>
+        </div>
+    </footer>
+
     <!-- JS -->
     <script src="assets/js/main.js" defer></script>
+
 </body>
 </html>
